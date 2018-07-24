@@ -1,0 +1,6 @@
+Sudo nano /etc/sudoers
+myusername ALL = (ALL) NOPASSWD: /path/to/my/program
+
+sudo chown root:root /usr/sbin/network.sh
+
+sudo chmod 4775 /usr/sbin/network.sh

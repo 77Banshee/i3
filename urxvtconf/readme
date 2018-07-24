@@ -1,0 +1,10 @@
+#! perl
+
+# Store this file as /usr/lib/urxvt/perl/xkr-clipboard
+#
+# To enable, add to ~/.Xresources:
+#
+# URxvt.perl-ext-common:        default,xkr-clipboard
+# URxvt.iso14755:               false
+# URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+# URxvt.keysym.Control-Insert:  perl:clipboard:copy

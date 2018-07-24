@@ -1,0 +1,4 @@
+sudo pacman -S compton 
+gnome-screenshot feh lxappearance 
+arc-gtk-theme rofi pavucontrol intel-ucode ufw 
+net-tools
